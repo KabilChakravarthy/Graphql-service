@@ -1,0 +1,13 @@
+type Query{
+    profileDetails : details
+}
+
+type details{
+    name : String
+    address : String
+    email : String
+    mobile : String
+    accountno : String
+    aadhaarno : String
+    pannumber : String
+}
